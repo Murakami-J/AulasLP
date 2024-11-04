@@ -1,4 +1,14 @@
-public class AlunoPos extends Aluno{
+package school.sptech.alunopos;/*
+    Aluno é SUPERCLASSE (ou classe Base) de AlunoPos
+    AlunoPos é SUBCLASSE (ou classe Derivada) de Aluno
+
+    Uma Subclasse herda tudo que não é private!!!98
+    default (ou package): é quando não tem nem private nem public nem protected
+*/
+
+import school.sptech.Aluno;
+
+public class AlunoPos extends Aluno {
     private Double notaTCC;
 
 

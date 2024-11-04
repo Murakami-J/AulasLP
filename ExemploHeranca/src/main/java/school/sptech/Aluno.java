@@ -1,3 +1,5 @@
+package school.sptech;
+
 public class Aluno {
     // Ordem das coisas na classe:
     // Atributos > Construtores > Métodos > Getters/Setter > toString
@@ -5,6 +7,9 @@ public class Aluno {
     private Double nota1;
     private Double nota2;
     private Double nota3;
+
+    public Aluno() {
+    }
 
     public Aluno(String nome, Double nota1, Double nota2, Double nota3) {
         this.nome = nome;
@@ -59,4 +64,5 @@ public class Aluno {
                 ", media=" + calcularMedia() +
                 '}';
     }
+
 }
